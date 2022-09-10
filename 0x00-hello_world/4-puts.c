@@ -11,30 +11,14 @@
  *
  *      * Return: 0
  *
- *       */
-
+ *     
+ */
 int main(void)
 
 {
 
-	char ch;
+		puts("\"Programming is like building a multilingual puzzle");
 
-	for (ch = 'a' ; ch <= 'z' ; ch++)
-
-	{
-
-		if (ch != 'e' && ch != 'q')
-
-		{
-
-				putchar(ch);
-
-		}
-
-	}
-
-	putchar('\n');
-
-	return (0);
+			return (0);
 
 }
