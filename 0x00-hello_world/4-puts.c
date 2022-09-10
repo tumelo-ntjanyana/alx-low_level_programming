@@ -1,18 +1,15 @@
 #include <stdio.h>
-
-
-
 /**
  *
- *  * main - Entry point
+ *  * main - print if the number is postive, zero, or negative
  *
  *   *
  *
- *    * Description: prints "Programming is like building a multilingual puzzle"
+ *    * Description: using the main function
  *
- *     *
+ *     * this program prints "Programming is positive, zero, or negative
  *
- *      * Return: Always 0 (Success)
+ *      * Return: 0
  *
  *       */
 
@@ -20,8 +17,24 @@ int main(void)
 
 {
 
-		puts("\"Programming is like building a multilingual puzzle");
+	char ch;
 
-			return (0);
+	for (ch = 'a' ; ch <= 'z' ; ch++)
+
+	{
+
+		if (ch != 'e' && ch != 'q')
+
+		{
+
+				putchar(ch);
+
+		}
+
+	}
+
+	putchar('\n');
+
+	return (0);
 
 }
