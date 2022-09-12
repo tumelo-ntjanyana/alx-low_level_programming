@@ -5,7 +5,7 @@
  *
  * Return: Always 0 (Success)
  *
- * */
+ */
 int main(void)
 {
 	int number;
@@ -14,6 +14,6 @@ int main(void)
 	{
 		printf("%i", number);
 	}
-	putchar('\n');	
+	putchar('\n');
 	return (0);
 }
