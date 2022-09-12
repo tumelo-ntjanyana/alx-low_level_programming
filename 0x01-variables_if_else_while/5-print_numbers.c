@@ -8,12 +8,12 @@
  * */
 int main(void)
 {
-	int digit;
+	int number;
 
-	for (digit = 0; digit < 10; digit++)
+	for (number = 0; number < 10; number++)
 	{
-		printf("%i", digit);
-		putchar('\n');
+		printf("%i", number);
 	}
-		return (0);
+	putchar('\n');	
+	return (0);
 }
