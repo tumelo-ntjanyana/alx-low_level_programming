@@ -40,8 +40,8 @@ int main(void)
 
 					if (a + b + c != 9 + 8 + 7)
 					{
-						putchar(',');
-						putchar(',');
+						putchar(' ');
+						putchar(' ');
 					}
 				}
 				a++;
