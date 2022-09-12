@@ -3,7 +3,7 @@
  * main - create 2 pairs of number
  * Return: 0
  */
- 
+
 int main(void)
 {
 	int a, b;
