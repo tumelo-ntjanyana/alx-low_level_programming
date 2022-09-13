@@ -5,13 +5,9 @@
  */
 int main(void)
 {
-	char tumelo[20] = "_putchar";
-	int i;
+	char tumelo = "_putchar";
 
-	for (i = 0; i < 8; i++)
-	{
-		_putchar(tumelo[i]);
-	}
+		_putchar(tumelo);
 	_putchar('\n');
 	return (0);
 }
