@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-	char tumelo = "_putchar";
+	char *tumelo = "_putchar";
 
-		_putchar(tumelo);
+		_putchar(*tumelo);
 	_putchar('\n');
 	return (0);
 }
