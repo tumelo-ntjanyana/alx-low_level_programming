@@ -7,7 +7,11 @@ int main(void)
 {
 	char *tumelo = "_putchar";
 
+	while (*tumelo)
+	{
 		_putchar(*tumelo);
+		tumelo++;
+	}
 	_putchar('\n');
 	return (0);
 }
