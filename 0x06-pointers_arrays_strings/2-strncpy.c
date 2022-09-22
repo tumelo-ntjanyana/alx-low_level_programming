@@ -5,20 +5,27 @@
  * @dest: string to be appended upon
  * @src: string to be completed at end of dest
  * @n: integer parameter to compare index to
- * Return: dest
+ * Return: void
  */
 
 char *_strncpy(char *dest, char *src, int n);
 {
-	int index = 0;
-	int dest_len = 0;
+	int i;
 
-	while (dest[index++])
-		dest_len++;
+	i = 0;
 
-	for (index = 0; src[index] && index < n; index++)
-		dest[dest_len++] = src[index];
+	while (src[i] != '\0' && i < n)
+	{
+		dest[i] = src[i];
+		i++;
+	}
+
+	while (i < n)
+	{
+		dest[i] = '\0';
+		i++;
+
+	}
 
 	return (dest);
 }
-
