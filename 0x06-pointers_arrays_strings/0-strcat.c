@@ -2,9 +2,9 @@
 
 /**
  * _strcat - function that concatenates two strings.
- * @src: stringto be concatenated upon 
- * the end of the string pointed to by @dest 
- * @dest: string that will be appended 
+ * @src: stringto be concatenated upon
+ * the end of the string pointed to by @dest
+ * @dest: string that will be appended
  * Return: dest.
  */
 
