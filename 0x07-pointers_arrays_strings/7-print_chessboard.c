@@ -3,6 +3,7 @@
 /**
  * print_chessboard - prints chessboard
  * @a: matrix
+ * Return: Nothing.
  */
 
 void print_chessboard(char (*a)[8])
@@ -14,7 +15,7 @@ void print_chessboard(char (*a)[8])
 	{
 		for (b = 0; b < 8; b++)
 		{
-			_putchar(*(*(i + a) + j));
+			_putchar(a[b][c]);
 		}
 		_putchar('\n');
 	}
