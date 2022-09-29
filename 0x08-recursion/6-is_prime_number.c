@@ -37,7 +37,7 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	else 
+	else
 	{
 		return (divisors(3, n));
 	}
